@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<!-- saved from url=(0063)file:///Users/ericbourgeois/Downloads/invitation-mariage_3.html -->
-<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<html lang="fr">
+<head>
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Eric &amp; Caroline — 5 décembre 2026</title>
 
 <!-- ══ Aperçu du lien dans Messenger / courriel ══ -->
-<meta property="og:title" content="Eric &amp; Caroline se marient">
-<meta property="og:description" content="Samedi 5 décembre 2026 — cliquez pour voir l&#39;invitation et répondre.">
+<meta property="og:title" content="Eric & Caroline se marient">
+<meta property="og:description" content="Samedi 5 décembre 2026 — cliquez pour voir l'invitation et répondre.">
 <meta property="og:type" content="website">
 <!-- Optionnel : mettez une image 1200x630 à côté du fichier et décommentez
 <meta property="og:image" content="https://VOTRE-LIEN/apercu.jpg"> -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com/">
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
-<link href="./index_files/css2" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Marcellus&display=swap" rel="stylesheet">
 
 <script>
 /* ═══════════════════════════════════════════════════════════════
@@ -88,6 +88,15 @@ body{
 @keyframes leve{from{opacity:0;transform:translateY(14px);}to{opacity:1;transform:none;}}
 
 /* ── Typographie ─────────────────────────────────────────── */
+.echeance{
+  font-size:.74rem;text-transform:uppercase;letter-spacing:.24em;
+  color:var(--bordeaux);margin:0 0 clamp(24px,5.5vw,34px);
+  padding:13px 10px 11px;line-height:1.9;
+  border-top:1px solid rgba(122,31,48,.35);
+  border-bottom:1px solid rgba(122,31,48,.35);
+  background:rgba(122,31,48,.05);
+}
+.echeance strong{font-weight:400;font-size:1.02rem;letter-spacing:.2em;}
 .sourcil{
   font-size:.72rem;text-transform:uppercase;letter-spacing:.34em;
   color:var(--encre-douce);margin:0 0 clamp(22px,5vw,34px);
@@ -191,10 +200,11 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <symbol id="glyphe-coeur" viewBox="0 0 100 100">
     <!-- Contour : plein trait descendant à gauche -->
-    <path fill="currentColor" d="M50 90 C 20 68, 3 49, 3 31 C 3 16, 15 6, 28 6 C 38 6, 46 12, 50 21 C 54 12, 62 6, 72 6 C 85 6, 97 16, 97 31 C 97 49, 80 68, 50 90 Z"></path>
+    <path fill="currentColor" d="M50 90 C 20 68, 3 49, 3 31 C 3 16, 15 6, 28 6 C 38 6, 46 12, 50 21 C 54 12, 62 6, 72 6 C 85 6, 97 16, 97 31 C 97 49, 80 68, 50 90 Z"/>
     <!-- Contre-forme décalée vers le haut à droite : c'est elle qui crée
          le contraste plein/délié d'une plume tenue à 45 degrés -->
-    <path fill="var(--papier)" transform="translate(12.6,6.5) scale(0.82)" d="M50 90 C 20 68, 3 49, 3 31 C 3 16, 15 6, 28 6 C 38 6, 46 12, 50 21 C 54 12, 62 6, 72 6 C 85 6, 97 16, 97 31 C 97 49, 80 68, 50 90 Z"></path>
+    <path fill="var(--papier)" transform="translate(12.6,6.5) scale(0.82)"
+          d="M50 90 C 20 68, 3 49, 3 31 C 3 16, 15 6, 28 6 C 38 6, 46 12, 50 21 C 54 12, 62 6, 72 6 C 85 6, 97 16, 97 31 C 97 49, 80 68, 50 90 Z"/>
   </symbol>
 </svg>
 
@@ -203,7 +213,7 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
   <!-- ════════ RECTO : l'invitation ════════ -->
   <div class="contenu" id="recto">
     <h1 class="nom">Eric Bourgeois</h1>
-    <svg class="coeur" viewBox="0 0 100 100" role="img" aria-label="et"><use href="#glyphe-coeur"></use></svg>
+    <svg class="coeur" viewBox="0 0 100 100" role="img" aria-label="et"><use href="#glyphe-coeur"/></svg>
     <h1 class="nom">Caroline Matte</h1>
 
     <hr class="filet">
@@ -214,12 +224,12 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
     </p>
 
     <div class="etape">
-      <p class="etiquette">Cérémonie · quinze heures</p>
+      <p class="etiquette">Cérémonie &middot; quinze heures</p>
       <p class="lieu">Cathédrale Marie-Reine-du-Monde<br><span class="adresse">1085, rue de la Cathédrale<br>Montréal (Québec) H3B 2V3</span></p>
     </div>
 
     <div class="etape">
-      <p class="etiquette">Réception · dix-huit heures trente</p>
+      <p class="etiquette">Réception &middot; de dix-sept heures trente à vingt heures trente</p>
       <p class="lieu">Restaurant Zyara<br><span class="adresse">1004, rue du Marché Central<br>Montréal (Québec) H4N 1J8</span></p>
     </div>
 
@@ -228,7 +238,7 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
 
   <!-- ════════ VERSO : le formulaire ════════ -->
   <div class="contenu cache" id="verso">
-    <p class="sourcil">Réponse souhaitée avant le 1<sup>er</sup> novembre</p>
+    <p class="echeance">Réponse attendue au plus tard<br><strong>le 31 octobre</strong></p>
 
     <div class="champ">
       <label for="nom">Votre nom</label>
@@ -243,7 +253,7 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
     <fieldset>
       <legend>Serez-vous des nôtres&nbsp;?</legend>
       <div class="choix">
-        <label><input type="radio" name="presence" value="oui" checked=""><span>Avec plaisir</span></label>
+        <label><input type="radio" name="presence" value="oui" checked><span>Avec plaisir</span></label>
         <label><input type="radio" name="presence" value="non"><span>Hélas, non</span></label>
       </div>
     </fieldset>
@@ -251,7 +261,7 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
     <fieldset id="blocAccomp">
       <legend>Serez-vous accompagné(e)&nbsp;?</legend>
       <div class="choix">
-        <label><input type="radio" name="accomp" value="non" checked=""><span>Seul(e)</span></label>
+        <label><input type="radio" name="accomp" value="non" checked><span>Seul(e)</span></label>
         <label><input type="radio" name="accomp" value="oui"><span>À deux</span></label>
       </div>
     </fieldset>
@@ -273,7 +283,7 @@ fieldset{border:0;padding:0;margin:0 0 22px;}
 
   <!-- ════════ Confirmation ════════ -->
   <div class="contenu cache" id="merci">
-    <svg class="coeur" viewBox="0 0 100 100" role="img" aria-label="et"><use href="#glyphe-coeur"></use></svg>
+    <svg class="coeur" viewBox="0 0 100 100" role="img" aria-label="et"><use href="#glyphe-coeur"/></svg>
     <hr class="filet">
     <p class="detail" id="merciTexte">Votre réponse est partie.<br><em>Merci — nous avons hâte de vous y voir.</em></p>
     <div id="secours" class="cache">
@@ -380,6 +390,9 @@ $("#envoyer").onclick = async () => {
       url = "https://formsubmit.co/ajax/" + (CONFIG.formsubmitAlias || CONFIG.courriel);
       donnees._captcha = "false";   // indispensable en mode AJAX
       donnees._template = "table";
+      // Les navigateurs ne transmettent plus l'adresse de la page au relais :
+      // on la lui donne nous-mêmes, sinon il refuse l'envoi.
+      donnees._url = location.href;
     }
 
     $("#envoyer").textContent = "Envoi…";
@@ -389,11 +402,23 @@ $("#envoyer").onclick = async () => {
         headers:{ "Content-Type":"application/json", "Accept":"application/json" },
         body: JSON.stringify(donnees)
       });
-      if (!rep.ok) throw new Error();
+
+      // Le relais peut répondre 200 tout en refusant l'envoi : il faut
+      // lire le corps de la réponse, pas seulement le code HTTP.
+      let data = null;
+      try { data = await rep.json(); } catch(e) {}
+      console.log("Réponse du relais :", rep.status, data);
+
+      if (!rep.ok)
+        throw new Error("le relais a répondu " + rep.status);
+      if (data && String(data.success).toLowerCase() === "false")
+        throw new Error(data.message || "le relais a refusé l'envoi");
+
       montrer("merci");
-    } catch {
+    } catch(e) {
       $("#envoyer").textContent = "Envoyer ma réponse";
-      err.textContent = "L'envoi a échoué. Vérifiez votre connexion et réessayez.";
+      err.textContent = "L'envoi a échoué — " + (e.message || "cause inconnue") +
+                        ". Réessayez, ou écrivez-nous directement.";
       err.classList.remove("cache");
     }
     return;
@@ -420,6 +445,5 @@ $("#copier").onclick = async () => {
   }
 };
 </script>
-
-
-</body></html>
+</body>
+</html>
